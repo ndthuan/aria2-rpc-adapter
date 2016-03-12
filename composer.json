@@ -1,0 +1,23 @@
+{
+  "name": "ndthuan/aria2-rpc-adapter",
+  "type": "library",
+  "description": "Aria2 RPC Adapter for PHP",
+  "keywords": ["aria2"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thuan Nguyen",
+      "email": "thuan@nguyens.xyz",
+      "homepage": "http://thuan.nguyens.xyz"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "fguillot/json-rpc": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ndthuan\\Aria2RpcAdapter\\": "src/"
+    }
+  }
+}
