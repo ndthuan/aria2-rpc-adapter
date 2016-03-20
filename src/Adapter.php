@@ -11,7 +11,8 @@ use JsonRPC\Client;
  *
  * @method array getGlobalStat
  * @method string addUri(array $uris, array $options = []) Returns the GID of the newly registered download.
- * @method array tellActive(array $key = [])
+ * @method array tellStatus(string $gid, array $keys = []) Returns status of a download.
+ * @method array tellActive(array $keys = [])
  */
 class Adapter
 {
